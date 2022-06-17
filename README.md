@@ -43,6 +43,8 @@
 #### sudo apt install iptables-persistent
 #### sudo /sbin/iptables-save > /etc/iptables/rules.v4
 #### sudo /sbin/ip6tables-save > /etc/sysconfig/ip6tables
+#### forever start -c "npm start" .
+
 ## Flush iptables
 #### sudo iptables -F
 <br>
