@@ -20,6 +20,7 @@ export default function Current({ weatherInfo, location, date }) {
             {Math.round(weatherInfo.current.temp)}
             <sup className="list__temperature-symbol">°C</sup>
           </li>
+          <li> Feels like: {Math.round(weatherInfo.current.feels_like)} °C </li>
           <li> Humidity: {weatherInfo.current.humidity}% </li>
           <li>
             {" "}
