@@ -33,7 +33,7 @@
 
 ## Instructions
 #### git clone https://github.com/luisruizs/TheWorldWeather
-#### cd luisruizs.github.io/weather-app-main
+#### cd TheWorldWeather
 #### sudo apt install npm
 #### npm install
 #### npm start
